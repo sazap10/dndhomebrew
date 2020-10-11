@@ -17,7 +17,7 @@
       }
     ],
     "dateAdded": 1590674052,
-    "dateLastModified": 1602410277
+    "dateLastModified": 1602410503
   },
   "item": [
     {
@@ -492,12 +492,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://github.com/sazap10/dndhomebrew/raw/main/images/bugbear-shaman.png"
+              "url": "https://raw.githubusercontent.com/sazap10/dndhomebrew/main/images/bugbear-shaman.png"
 						}
 					}
 				]
 			},
-			"tokenUrl": "https://github.com/sazap10/dndhomebrew/raw/main/images/bugbear-shaman.png",
+			"tokenUrl": "https://raw.githubusercontent.com/sazap10/dndhomebrew/main/images/bugbear-shaman.png",
 			"senseTags": [
 				"D"
 			],
