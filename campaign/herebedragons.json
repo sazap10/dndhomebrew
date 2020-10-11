@@ -1,0 +1,517 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "HereBeDragons",
+        "abbreviation": "HBD",
+        "full": "Here be dragons",
+        "authors": [
+          "Spicebandit"
+        ],
+        "convertedBy": [
+          "Spicebandit"
+        ],
+        "version": "1.4.2",
+        "url": "",
+        "targetSchema": "1.3.4"
+      }
+    ],
+    "dateAdded": 1590674052,
+    "dateLastModified": 1602409152
+  },
+  "item": [
+    {
+      "name": "Dragonforged Armour",
+      "source": "HereBeDragons",
+      "type": "MA",
+      "page": 0,
+      "rarity": "legendary",
+      "reqAttune": true,
+      "ac": 16,
+      "weight": 40,
+      "stealth": true,
+      "entries": [
+        "Red half-plate armour made with metal forged using red dragonfire, as such the armour is known to flare up if the wearer desires it. On your turn, you can use a bonus action to will the armor to erupt into a blazing fire. The flames shed bright light for a 60-foot radius and dim light for an additional 60 feet.",
+        "When wearing this armor your melee attacks do an additional {@damage 1d4} fire damage. If you are attacked the attacker takes {@damage 1d6} fire damage. This armor grants +1 AC.",
+        "When wearing this armor any fire attacks you make deal an additional {@damage 1d4} fire damage. While wearing the armour you are resistant to fire damage.",
+        {
+          "type": "entries",
+          "name": "Charged",
+          "entries": [
+            "Once the Dragonforged Armour reaches the charged state, it gains the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "Melee attacks do an additional {@damage 1d6} fire damage (instead of {@dice 1d4}).",
+                "Fire attacks do an additional {@damage 1d6} fire damage (instead of {@dice 1d4}).",
+                "The AC bonus of the armor increases to +2.",
+                "You have immunity to fire damage.",
+                "You have resistance to dragon breath weapons."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragonforged Armour (Charged)",
+      "source": "HereBeDragons",
+      "type": "MA",
+      "page": 0,
+      "rarity": "legendary",
+      "reqAttune": true,
+      "ac": 17,
+      "weight": 40,
+      "entries": [
+        "Red half-plate armour made with metal forged using red dragonfire, as such the armour is known to flare up if the wearer desires it. On your turn, you can use a bonus action to will the armor to erupt into a blazing fire. The flames shed bright light for a 60-foot radius and dim light for an additional 60 feet.",
+        "When wearing this armor your melee attacks do an additional {@damage 1d6} fire damage. If you are attacked the attacker takes {@damage 1d6} fire damage. This armor grants +2 AC.",
+        "When wearing this armor any fire attacks you make deal an additional {@damage 1d6} fire damage. While wearing the armour you are immune to fire damage and resistant to dragon breath weapons."
+      ]
+    },
+    {
+      "name": "Deathwalker's Ward",
+      "source": "HereBeDragons",
+      "type": "MA",
+      "page": 0,
+      "rarity": "legendary",
+      "reqAttune": true,
+      "ac": 17,
+      "stealth": true,
+      "weight": 40,
+      "entries": [
+        "This elegant, black half plate armor is covered in intricate scrollwork, the mantle bearing the black feathers of the Matron of Ravens.",
+        "You gain a +2 bonus to AC while wearing this armor.",
+        "You have advantage on death saving throws made while wearing this armor.",
+        {
+          "type": "entries",
+          "name": "Charged",
+          "entries": [
+            "When charged, apply the following changes to the item's traits:",
+            {
+              "type": "list",
+              "items": [
+                "Increase the bonus to AC to +3.",
+                "While wearing this attuned armor, the wearer chooses and imbues this armor with resistance to a damage type of your choice: fire, cold, acid, lightning, or necrotic. This choice can be changed during a short rest."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deathwalker's Ward (Charged)",
+      "source": "HereBeDragons",
+      "type": "MA",
+      "page": 0,
+      "rarity": "legendary",
+      "reqAttune": true,
+      "ac": 18,
+      "stealth": true,
+      "weight": 40,
+      "entries": [
+        "This elegant, black half plate armor is covered in intricate scrollwork, the mantle bearing the black feathers of the Matron of Ravens.",
+        "You gain a +3 bonus to AC while wearing this armor.",
+        "You have advantage on death saving throws made while wearing this armor.",
+        "While wearing this attuned armor, the wearer chooses and imbues this armor with resistance to a damage type of your choice: fire, cold, acid, lightning, or necrotic. This choice can be changed during a short rest."
+      ]
+    },
+    {
+      "name": "Archmage's Robes",
+      "source": "HereBeDragons",
+      "page": 0,
+      "tier": "major",
+      "rarity": "legendary",
+      "reqAttune": "by a sorcerer, warlock, or wizard",
+      "wondrous": true,
+      "type": "LA",
+      "ac": 12,
+      "entries": [
+        "This elegant garment is made from exquisite cloth of white and adorned with silvery draconic runes. This robe can only be attunement with someone with a good alignment.",
+        "You gain these benefits while wearing the robe:",
+        "If you aren't wearing armor, your base Armor Class is 12 + your Dexterity modifier.",
+        "You have advantage on saving throws against spell and other magical effects.",
+        {
+          "type": "entries",
+          "name": "Charged",
+          "entries": [
+            "When charged, apply the following changes to the item's traits:",
+            {
+              "type": "list",
+              "items": [
+                "Your base Armor Class is now 15 + your Dexterity modifier.",
+                "Your spell save DC and spell attack bonus each increase by 2."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Archmage's Robes (Charged)",
+      "source": "HereBeDragons",
+      "page": 0,
+      "tier": "major",
+      "rarity": "legendary",
+      "reqAttune": "by a sorcerer, warlock, or wizard",
+      "wondrous": true,
+      "type": "LA",
+      "ac": 15,
+      "entries": [
+        "This elegant garment is made from exquisite cloth of white and adorned with silvery draconic runes. This robe can only be attunement with someone with a good alignment.",
+        "You gain these benefits while wearing the robe:",
+        "If you aren't wearing armor, your base Armor Class is 15 + your Dexterity modifier.",
+        "You have advantage on saving throws against spell and other magical effects.",
+        "Your spell save DC and spell attack bonus each increase by 2."
+      ]
+    },
+    {
+      "name": "Drihvaex",
+      "source": "HereBeDragons",
+      "page": 0,
+      "rarity": "legendary",
+      "baseItem": "longbow|phb",
+      "reqAttune": true,
+      "bonusWeapon": "+2",
+      "range": "150/600",
+      "type": "R",
+      "dmg1": "1d8",
+      "dmgType": "P",
+      "weight": 2,
+      "weaponCategory": "martial",
+      "property": [
+        "A",
+        "H",
+        "2H"
+      ],
+      "entries": [
+        "This longbow is made from the bones of an Ancient Green Dragon, green wisps can be seen emanating from the bones. You gain a +2 bonus to attack and damage rolls made with this weapon. When you hit with an attack using this weapon, the target takes an additional {@damage 1d4} poison damage.",
+        "When firing an arrow from this weapon, you can declare an oracle shot, allowing you to project your sight through the arrow you fire for up to 10 minutes. You cannot use this ability again until you finish a short rest.",
+        "When you hit with an attack, you can declare a bramble shot. The target takes an additional {@damage 3d8} piercing damage, and they must make a DC 15 Strength saving throw or become {@condition restrained} by the suddenly sprouting steel-hard thorn brambles that immediately grow from the arrow. The {@condition restrained} target can repeat the saving throw at the end of each of its turns, ending the effect on a success. You cannot use this ability again until you finish a short or long rest.",
+        {
+          "type": "entries",
+          "name": "Charged",
+          "entries": [
+            "When charged, apply the following changes to the item's traits:",
+            {
+              "type": "list",
+              "items": [
+                "Increase the bonus to attack and damage rolls to a +3.",
+                "The poison damage dealt by attacks with this weapon increases to {@dice 1d6}.",
+                "You can use your bramble shot ability twice between rests, and the saving throw DC increases to 17."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drihvaex (Charged)",
+      "source": "HereBeDragons",
+      "page": 0,
+      "rarity": "legendary",
+      "baseItem": "longbow|phb",
+      "reqAttune": true,
+      "bonusWeapon": "+3",
+      "range": "150/600",
+      "type": "R",
+      "dmg1": "1d8",
+      "dmgType": "P",
+      "weight": 2,
+      "weaponCategory": "martial",
+      "property": [
+        "A",
+        "H",
+        "2H"
+      ],
+      "entries": [
+        "This longbow is made from the bones of an Ancient Green Dragon, green wisps can be seen emanating from the bones. You gain a +3 bonus to attack and damage rolls made with this weapon. When you hit with an attack using this weapon, the target takes an additional {@damage 1d6} poison damage.",
+        "When firing an arrow from this weapon, you can declare an oracle shot, allowing you to project your sight through the arrow you fire for up to 10 minutes. You cannot use this ability again until you finish a short rest.",
+        "When you hit with an attack, you can declare a bramble shot. The target takes an additional {@damage 3d8} piercing damage, and they must make a DC 17 Strength saving throw or become {@condition restrained} by the suddenly sprouting steel-hard thorn brambles that immediately grow from the arrow. The {@condition restrained} target can repeat the saving throw at the end of each of its turns, ending the effect on a success. You can use this ability twice between rests."
+      ]
+    },
+    {
+      "name": "Breastplate of the Forgemaster",
+      "source": "HereBeDragons",
+      "type": "MA",
+      "page": 0,
+      "rarity": "legendary",
+      "ac": 15,
+      "weight": 20,
+      "reqAttune": "by an artificer",
+      "recharge": "dawn",
+      "charges": 25,
+      "entries": [
+        "This armour counts as +1 Breastplate Armour.",
+        "The armour has 25 charges for the following properties. It regains {@dice 2d6 + 2} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 20, the armour regains {@dice 1d6 + 1} charges.",
+        "Spell Absorption: While wearing the armour, you have advantage on Saving Throws against Spells. In addition, you can use your Reaction when another creature casts a spell that Targets only you. If you do, the armour absorbs the magic of the spell, cancelling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the armour's total number of charges above 25, the armour explodes and forces each creature within 20 feet of it to make a Dexterity saving throw against DC17, taking 3d8 force damage on a failed save or half as much damage on a successful one.",
+        "Spellsmithing: While wearing the armour, you can use an action to expend some of its charges to imbue an item with a known spell as if it were a Ring of Spell Storing. Any creature can cast the spell as an action, using your spell save DC, attack bonus, and spellcasting ability.",
+        "In addition, when crafting a magical item you may spend charges to replace an equal number of days crafting and related expenditures.",
+        {
+          "type": "entries",
+          "name": "Charged",
+          "entries": [
+            "Once the Breastplate of the Forgemaster reaches the charged state, it gains the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "The AC bonus of the armor increases to +2.",
+                "The number of charges increases to 50, it regains {@dice 4d6 + 2} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 20, the armour regains {@dice 1d12 + 1} charges.",
+                "The armour now explodes when the total number of charges reaches over 50."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Breastplate of the Forgemaster (Charged)",
+      "source": "HereBeDragons",
+      "type": "MA",
+      "page": 0,
+      "rarity": "legendary",
+      "ac": 16,
+      "weight": 20,
+      "reqAttune": "by an artificer",
+      "recharge": "dawn",
+      "charges": 25,
+      "entries": [
+        "This armour counts as +2 Breastplate Armour.",
+        "The armour has 50 charges for the following properties. It regains {@dice 4d6 + 2} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 20, the armour regains {@dice 1d12 + 1} charges.",
+        "Spell Absorption: While wearing the armour, you have advantage on Saving Throws against Spells. In addition, you can use your Reaction when another creature casts a spell that Targets only you. If you do, the armour absorbs the magic of the spell, cancelling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the armour's total number of charges above 50, the armour explodes and forces each creature within 20 feet of it to make a Dexterity saving throw against DC17, taking 3d8 force damage on a failed save or half as much damage on a successful one.",
+        "Spellsmithing: While wearing the armour, you can use an action to expend some of its charges to imbue an item with a known spell as if it were a Ring of Spell Storing. Any creature can cast the spell as an action, using your spell save DC, attack bonus, and spellcasting ability.",
+        "In addition, when crafting a magical item you may spend charges to replace an equal number of days crafting and related expenditures."
+      ]
+    }
+  ],
+  "spell":[
+    {
+      "name": "Distant Alarm",
+      "level": 8,
+      "school": "D",
+      "time": [
+        {
+          "number": 10,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "duration": [
+        {
+          "type": "permanent",
+          "ends": [
+            "dispel"
+          ]
+        },
+        {
+          "type": "permanent",
+          "ends": [
+            "trigger"
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Wizard",
+            "source": "HereBeDragons"
+          }
+        ]
+      },
+      "entries": [
+        "You set an alarm against unwanted intrusion. Choose an object. Until dispelled, an alarm alerts you whenever the object leaves a specified location or person. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.",
+        "A mental alarm alerts you with a ping in your mind if you are within the same plane as the object. This ping awakens you if you are sleeping.",
+        "An audible alarm produces the sound of a hand bell for 1 minute within 300 feet.",
+        "Once triggered you also know the location of the object for the next 24 hours."
+      ],
+      "source": "HereBeDragons",
+      "components": {
+        "v": true,
+        "s": true,
+        "m": {
+          "text": "fine silver dust worth at least 300 gp, which the spell consumes",
+          "consumed": true,
+          "cost": 30000
+        }
+      }
+    }
+  ],
+  "monster": [
+		{
+			"name": "Bugbear Shaman",
+			"shortName": true,
+			"source": "HereBeDragons",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item +2 hide armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 48",
+				"average": 120
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 16,
+			"int": 14,
+			"wis": 20,
+			"cha": 8,
+			"save": {
+				"wis": "+10",
+				"int": "+7"
+			},
+			"skill": {
+				"stealth": "+8",
+				"nature": "+7",
+				"survival": "+10"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"conditionImmune": [],
+			"languages": [
+				"Common",
+				"Goblin",
+				"Druidic"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mold earth|XGE}",
+								"{@spell poison spray}",
+								"{@spell primal savagery|XGE}",
+								"{@spell thorn whip}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell entangle}",
+								"{@spell faerie fire}",
+								"{@spell healing word}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell heat metal}",
+								"{@spell hold person}",
+								"{@spell moonbeam}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell call lightning}",
+								"{@spell dispel magic}",
+								"{@spell erupting earth|XGE}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell blight}",
+								"{@spell confusion}",
+								"{@spell wall of fire}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell insect plague}",
+								"{@spell maelstrom|XGE}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell heal}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell fire storm}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell sunburst}"
+							],
+							"slots": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Shilelagh Staff",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Wild Shape (2/day)",
+					"entries": [
+						"The bugbear shaman magically polymorphs into a beast or elemental with a challenge rating of 5 or less, and can remain in the is form for up to 8 hours. The bugbear shaman can choose to whether its equipment falls to the ground, melds with new, or is worn by the new form. The bugbear shaman reverts to its true form as a bonus action or if it is knocked to 0 hit points, with excess damage carrying over to its true form. While in a new form, the bugbear shaman retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and Constitution are replcae by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions(except class features, legendary actions, and lair actions) that the new form has. It can cast its spells with verbal or somatic components in its new form. The new form's attacks are magical."
+					]
+				}
+			],
+			"legendaryActions": 0,
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/70/43/82/7043827e6f8012f0bbc94ec0053402fb.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.pinimg.com/originals/70/43/82/7043827e6f8012f0bbc94ec0053402fb.png",
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DU",
+				"GO"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
