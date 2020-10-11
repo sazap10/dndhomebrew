@@ -342,176 +342,176 @@
   ],
   "monster": [
 		{
-			"name": "Bugbear Shaman",
-			"shortName": true,
-			"source": "HereBeDragons",
-			"size": "M",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"goblinoid"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"{@item +2 hide armor}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "16d8 + 48",
-				"average": 120
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 16,
-			"con": 16,
-			"int": 14,
-			"wis": 20,
-			"cha": 8,
-			"save": {
-				"wis": "+10",
-				"int": "+7"
-			},
-			"skill": {
-				"stealth": "+8",
-				"nature": "+7",
-				"survival": "+10"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 15,
-			"conditionImmune": [],
-			"languages": [
-				"Common",
-				"Goblin",
-				"Druidic"
-			],
-			"cr": "15",
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell mold earth|XGE}",
-								"{@spell poison spray}",
-								"{@spell primal savagery|XGE}",
-								"{@spell thorn whip}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell cure wounds}",
-								"{@spell entangle}",
-								"{@spell faerie fire}",
-								"{@spell healing word}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell heat metal}",
-								"{@spell hold person}",
-								"{@spell moonbeam}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell call lightning}",
-								"{@spell dispel magic}",
-								"{@spell erupting earth|XGE}"
-							],
-							"slots": 3
-						},
-						"4": {
-							"spells": [
-								"{@spell blight}",
-								"{@spell confusion}",
-								"{@spell wall of fire}"
-							],
-							"slots": 3
-						},
-						"5": {
-							"spells": [
-								"{@spell insect plague}",
-								"{@spell maelstrom|XGE}"
-							],
-							"slots": 2
-						},
-						"6": {
-							"spells": [
-								"{@spell heal}"
-							],
-							"slots": 1
-						},
-						"7": {
-							"spells": [
-								"{@spell fire storm}"
-							],
-							"slots": 1
-						},
-						"8": {
-							"spells": [
-								"{@spell sunburst}"
-							],
-							"slots": 1
-						}
-					},
-					"type": "spellcasting"
-				}
-			],
-			"action": [
-				{
-					"name": "Shilelagh Staff",
-					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Wild Shape (2/day)",
-					"entries": [
-						"The bugbear shaman magically polymorphs into a beast or elemental with a challenge rating of 5 or less, and can remain in the is form for up to 8 hours. The bugbear shaman can choose to whether its equipment falls to the ground, melds with new, or is worn by the new form. The bugbear shaman reverts to its true form as a bonus action or if it is knocked to 0 hit points, with excess damage carrying over to its true form. While in a new form, the bugbear shaman retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and Constitution are replcae by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions(except class features, legendary actions, and lair actions) that the new form has. It can cast its spells with verbal or somatic components in its new form. The new form's attacks are magical."
-					]
-				}
-			],
-			"legendaryActions": 0,
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
+      "name": "Bugbear Shaman",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "goblinoid"
+        ]
+      },
+      "source": "HereBeDragons",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item +2 hide armor}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d8 + 48",
+        "average": 120
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 16,
+      "con": 16,
+      "int": 14,
+      "wis": 20,
+      "cha": 8,
+      "passive": 15,
+      "cr": "15",
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languages": [
+        "Common",
+        "Goblin",
+        "Druidic"
+      ],
+      "languageTags": [
+        "C",
+        "GO",
+        "DU"
+      ],
+      "save": {
+        "wis": "+10",
+        "int": "+7"
+      },
+      "skill": {
+        "stealth": "+8",
+        "nature": "+7",
+        "survival": "+10"
+      },
+      "legendaryActions": 0,
+      "damageTags": [
+        "B"
+      ],
+      "conditionImmune": [],
+      "tokenUrl": "https://raw.githubusercontent.com/sazap10/dndhomebrew/main/images/bugbear-shaman.png",
+      "shortName": true,
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell mold earth|XGE}",
+                "{@spell poison spray}",
+                "{@spell primal savagery|XGE}",
+                "{@spell thorn whip}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell cure wounds}",
+                "{@spell entangle}",
+                "{@spell faerie fire}",
+                "{@spell healing word}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell heat metal}",
+                "{@spell hold person}",
+                "{@spell moonbeam}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell call lightning}",
+                "{@spell dispel magic}",
+                "{@spell erupting earth|XGE}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell blight}",
+                "{@spell confusion}",
+                "{@spell wall of fire}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell insect plague}",
+                "{@spell maelstrom|XGE}"
+              ],
+              "slots": 2
+            },
+            "6": {
+              "spells": [
+                "{@spell heal}"
+              ],
+              "slots": 1
+            },
+            "7": {
+              "spells": [
+                "{@spell fire storm}"
+              ],
+              "slots": 1
+            },
+            "8": {
+              "spells": [
+                "{@spell sunburst}"
+              ],
+              "slots": 1
+            }
+          },
+          "type": "spellcasting"
+        }
+      ],
+      "action": [
+        {
+          "name": "Shilelagh Staff",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Wild Shape (2/day)",
+          "entries": [
+            "The bugbear shaman magically polymorphs into a beast or elemental with a challenge rating of 5 or less, and can remain in the is form for up to 8 hours. The bugbear shaman can choose to whether its equipment falls to the ground, melds with new, or is worn by the new form. The bugbear shaman reverts to its true form as a bonus action or if it is knocked to 0 hit points, with excess damage carrying over to its true form. While in a new form, the bugbear shaman retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and Constitution are replcae by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions(except class features, legendary actions, and lair actions) that the new form has. It can cast its spells with verbal or somatic components in its new form. The new form's attacks are magical."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
               "url": "https://raw.githubusercontent.com/sazap10/dndhomebrew/main/images/bugbear-shaman.png"
-						}
-					}
-				]
-			},
-			"tokenUrl": "https://raw.githubusercontent.com/sazap10/dndhomebrew/main/images/bugbear-shaman.png",
-			"senseTags": [
-				"D"
-			],
-			"languageTags": [
-				"C",
-				"DU",
-				"GO"
-			],
-			"damageTags": [
-				"B"
-			],
-			"miscTags": [
-				"MW"
-			]
-		}
+            }
+          }
+        ]
+      }
+    }
 	]
 }
