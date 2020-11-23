@@ -1,0 +1,430 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "DragonHydras",
+        "abbreviation": "DHY",
+        "full": "Dragon Hydras",
+        "authors": ["Lenmos"],
+        "convertedBy": ["Spicebandit"],
+        "version": "1.0.1",
+        "url": "https://www.dmsguild.com/product/324833/Dragon-Hydras",
+        "targetSchema": "1.3.4"
+      }
+    ],
+    "dateAdded": 1600003039,
+    "dateLastModified": 1606140330
+  },
+  "monster": [
+    {
+      "name": "Adult Chromatic Dragon Hydra (Flying)",
+      "size": "H",
+      "type": "dragon",
+      "source": "DragonHydras",
+      "alignment": ["C", "E"],
+      "ac": [
+        {
+          "ac": 22,
+          "from": ["natural armor"]
+        }
+      ],
+      "hp": {
+        "formula": "17d12 + 119",
+        "average": 229
+      },
+      "speed": {
+        "walk": 40,
+        "swim": 40,
+        "burrow": 30,
+        "climb": 40,
+        "fly": 80,
+        "canHover": false
+      },
+      "str": 27,
+      "dex": 10,
+      "con": 25,
+      "int": 16,
+      "wis": 13,
+      "cha": 21,
+      "passive": 25,
+      "cr": "21",
+      "page": 15,
+      "senses": ["blindsight 60 ft.", "darkvision 120 ft."],
+      "senseTags": ["B", "SD"],
+      "languages": ["Common", "Draconic"],
+      "languageTags": ["C", "DR"],
+      "save": {
+        "con": "+14",
+        "wis": "+8",
+        "cha": "+12",
+        "dex": "+7"
+      },
+      "skill": {
+        "perception": "+15",
+        "stealth": "+7",
+        "deception": "+12",
+        "insight": "+8",
+        "persuasion": "+12"
+      },
+      "immune": ["acid", "cold", "fire", "lightning", "poison"],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "The dragon hydra can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon hydra regains spent legendary actions at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Detect",
+          "entries": ["The dragon hydra makes a Wisdom (Perception) check."]
+        },
+        {
+          "name": "Flail (Costs 2 Actions)",
+          "entries": [
+            "The dragon hydra rapidly beats it tail and shakes it around its heads and necks. Each creature within 10 feet of the dragon hydra must succeed on a {@dc 19} Dexterity saving throw or take 13 ({@damage 2d6 + 6}) bludgeoning damage and be knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Tail Attack",
+          "entries": ["The dragon hydra makes a tail attack."]
+        },
+        {
+          "name": "Wing Attack (Costs 2 Actions)",
+          "entries": [
+            "The dragon hydra beats its wings. Each creature within 10 feet of the dragon hydra must succeed on a {@dc 19} Dexterity saving throw or take 13 ({@damage 2d6 + 6}) bludgeoning damage and be knocked {@condition prone}. The dragon hydra can then fly up to half its flying speed."
+          ]
+        }
+      ],
+      "conditionInflict": ["frightened", "prone"],
+      "damageTags": ["C", "A", "F", "L", "I", "B"],
+      "miscTags": ["MW", "RCH", "AOE"],
+      "conditionImmune": ["poisoned"],
+      "trait": [
+        {
+          "name": "Amphibious",
+          "entries": [
+            "The adult chromatic dragon hydra (flying) can breathe air and water."
+          ]
+        },
+        {
+          "name": "Ice Walk",
+          "entries": [
+            "The adult chromatic dragon hydra (flying) can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+          ]
+        },
+        {
+          "name": "Multiple Heads (Hydra)",
+          "entries": [
+            "The adult chromatic dragon hydra (flying) has five heads. While it has more than one head, the adult chromatic dragon hydra (flying) has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}.",
+            "Whenever the adult chromatic dragon hydra (flying) takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the adult chromatic dragon hydra (flying) dies.",
+            "At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The adult chromatic dragon hydra (flying) regains 10 hit points for each head regrown in this way."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If the adult chromatic dragon hydra (flying) fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Reactive Heads (Hydra)",
+          "entries": [
+            "For each head the adult chromatic dragon hydra (flying) has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+          ]
+        },
+        {
+          "name": "Wakeful (Hydra)",
+          "entries": [
+            "While the adult chromatic dragon hydra (flying) sleeps, at least one of its heads is awake."
+          ]
+        }
+      ],
+      "traitTags": ["Amphibious", "Legendary Resistances"],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The dragon hydra can use its Frightful Presence. It then makes two attacks two with its claws. Then it makes as many bite attacks as it has heads."
+          ]
+        },
+        {
+          "name": "Chromatic Multiattack (1/day)",
+          "entries": [
+            "If one color of each head is in existence and all breath weapons are available each head of a respective colour can unleash a breath weapon."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}17({@damage 2d10 + 6}) piercing damage, plus 12 ({@damage 1d8}) cold damage."
+          ]
+        },
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}13({@damage 2d6 + 6}) slashing damage."
+          ]
+        },
+        {
+          "name": "Tail",
+          "entries": [
+            "{@atk mw} {@hit 15} to hit, reach 15 ft., one target. {@h}15({@damage 2d8 + 6}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Frightful Presence",
+          "entries": [
+            "Each creature of the dragon hydra's choice that is within 120 feet of the dragon hydra and aware of it must succeed on a {@dc 14} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon hydra's Frightful Presence for the next 24 hours."
+          ]
+        },
+        {
+          "name": "Acid Breath {@recharge 5}",
+          "entries": [
+            "The black dragon hydra head exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 18} Dexterity saving throw, taking 54 ({@damage 12d8}) acid damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Cold Breath {@recharge 5}",
+          "entries": [
+            "The white dragon hydra head exhales an icy blast in a 60-foot cone. Each creature in that area must make a {@dc 19} Constitution saving throw, taking 54 ({@damage 12d8}) cold damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Fire Breath {@recharge 5}",
+          "entries": [
+            "The red dragon hydra head exhales fire in a 60-foot cone. Each creature in that area must make a {@dc 21} Dexterity saving throw, taking 63 ({@damage 18d6}) fire damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Lightning Breath {@recharge 5}",
+          "entries": [
+            "The blue dragon hydra head exhales lightning in a 90-foot line that is 5 feet wide. Each creature in that line must make a {@dc 19} Dexterity saving throw, taking 66 ({@damage 12d10}) lightning damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Poison Breath {@recharge 5}",
+          "entries": [
+            "The green dragon hydra head exhales poisonous gas in a 60-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw, taking 56 ({@damage 16d6}) poison damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "actionTags": ["Multiattack", "Frightful Presence"],
+      "group": "Dragon Hydra",
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/5d/Tiamat_p93.jpg/revision/latest?cb=20091224162247"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://raw.githubusercontent.com/sazap10/dndhomebrew/main/images/chromatic-dragon-hydra.png"
+    },
+    {
+      "name": "Ancient Chromatic Dragon Hydra (Flying)",
+      "size": "G",
+      "type": "dragon",
+      "source": "DragonHydras",
+      "alignment": ["C", "E"],
+      "ac": [
+        {
+          "ac": 22,
+          "from": ["natural armor"]
+        }
+      ],
+      "hp": {
+        "formula": "26d20 + 223",
+        "average": 496
+      },
+      "speed": {
+        "walk": 40,
+        "swim": 40,
+        "burrow": 40,
+        "climb": 40,
+        "fly": 80,
+        "canHover": false
+      },
+      "str": 30,
+      "dex": 10,
+      "con": 29,
+      "int": 18,
+      "wis": 15,
+      "cha": 23,
+      "passive": 28,
+      "cr": "27",
+      "page": 16,
+      "senses": ["blindsight 60 ft.", "darkvision 120 ft."],
+      "senseTags": ["B", "SD"],
+      "languages": ["Common", "Draconic"],
+      "languageTags": ["C", "DR"],
+      "save": {
+        "con": "+17",
+        "wis": "+10",
+        "cha": "+14",
+        "dex": "+8"
+      },
+      "skill": {
+        "stealth": "+8",
+        "deception": "+14",
+        "insight": "+10",
+        "persuasion": "+14",
+        "perception": "+18"
+      },
+      "immune": ["acid", "cold", "fire", "lightning", "poison"],
+      "legendaryActions": 3,
+      "legendaryHeader": [
+        "The dragon hydra can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon hydra regains spent legendary actions at the start of its turn."
+      ],
+      "legendary": [
+        {
+          "name": "Detect",
+          "entries": ["The dragon hydra makes a Wisdom (Perception) check."]
+        },
+        {
+          "name": "Flail (Costs 2 Actions)",
+          "entries": [
+            "The dragon hydra rapidly beats it tail and shakes it around its heads and necks. Each creature within 15 feet of the dragon hydra must succeed on a {@dc 22} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Tail Attack",
+          "entries": ["The dragon hydra makes a tail attack."]
+        },
+        {
+          "name": "Wing Attack (Costs 2 Actions)",
+          "entries": [
+            "The dragon hydra beats its wings. Each creature within 15 feet of the dragon hydra must succeed on a {@dc 22} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The dragon hydra can then fly up to half its flying speed."
+          ]
+        }
+      ],
+      "conditionInflict": ["frightened", "prone"],
+      "damageTags": ["F", "A", "C", "L", "I", "B"],
+      "miscTags": ["MW", "RCH", "AOE"],
+      "conditionImmune": ["poisoned"],
+      "trait": [
+        {
+          "name": "Amphibious",
+          "entries": [
+            "The adult chromatic dragon hydra (flying) can breathe air and water."
+          ]
+        },
+        {
+          "name": "Ice Walk",
+          "entries": [
+            "The adult chromatic dragon hydra (flying) can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+          ]
+        },
+        {
+          "name": "Multiple Heads (Hydra)",
+          "entries": [
+            "The adult chromatic dragon hydra (flying) has five heads. While it has more than one head, the adult chromatic dragon hydra (flying) has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}.",
+            "Whenever the adult chromatic dragon hydra (flying) takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the chromatic dragon hydra (flying) dies.",
+            "At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The chromatic dragon hydra (flying) regains 10 hit points for each head regrown in this way."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If the adult chromatic dragon hydra (flying) fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Reactive Heads (Hydra)",
+          "entries": [
+            "For each head the chromatic dragon hydra (flying) has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+          ]
+        },
+        {
+          "name": "Wakeful (Hydra)",
+          "entries": [
+            "While the adult chromatic dragon hydra (flying) sleeps, at least one of its heads is awake."
+          ]
+        }
+      ],
+      "traitTags": ["Amphibious", "Legendary Resistances"],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The dragon hydra can use its Frightful Presence. It then makes two attacks two with its claws. Then it makes as many bite attacks as it has heads."
+          ]
+        },
+        {
+          "name": "Chromatic Multiattack (1/day)",
+          "entries": [
+            "If one color of each head is in existence and all breath weapons are available each head of a respective colour can unleash a breath weapon."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}21({@damage 2d10 + 10}) piercing damage, plus 14 ({@damage 4d6}) fire damage."
+          ]
+        },
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}17({@damage 2d6 + 10}) slashing damage."
+          ]
+        },
+        {
+          "name": "Tail",
+          "entries": [
+            "{@atk mw} {@hit 17} to hit, reach 20 ft., one target. {@h}19({@damage 2d8 + 10}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Frightful Presence",
+          "entries": [
+            "Each creature of the dragon hydra's choice that is within 120 feet of the dragon hydra and aware of it must succeed on a {@dc 21} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon hydra's Frightful Presence for the next 24 hours."
+          ]
+        },
+        {
+          "name": "Acid Breath {@recharge 5}",
+          "entries": [
+            "The black dragon hydra head exhales acid in a 90-foot line that is 10 feet wide. Each creature in that line must make a {@dc 22} Dexterity saving throw, taking 67 ({@damage 15d8}) acid damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Cold Breath {@recharge 5}",
+          "entries": [
+            "The white dragon hydra head exhales an icy blast in a 90-foot cone. Each creature in that area must make a {@dc 22} Constitution saving throw, taking 72 ({@damage 16d8}) cold damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Fire Breath {@recharge 5}",
+          "entries": [
+            "The red dragon hydra head exhales fire in a 90-foot cone. Each creature in that area must make a {@dc 24} Dexterity saving throw, taking 91 ({@damage 26d6}) fire damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Lightning Breath {@recharge 5}",
+          "entries": [
+            "The blue dragon hydra head exhales lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a {@dc 23} Dexterity saving throw, taking 88 ({@damage 16d10}) lightning damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Poison Breath {@recharge 5}",
+          "entries": [
+            "The green dragon hydra head exhales poisonous gas in a 90-foot cone. Each creature in that area must make a {@dc 22} Constitution saving throw, taking 77 ({@damage 22d6}) poison damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "actionTags": ["Frightful Presence", "Multiattack"],
+      "group": "Dragon Hydra",
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/5d/Tiamat_p93.jpg/revision/latest?cb=20091224162247"
+            }
+          }
+        ]
+      },
+      "tokenUrl": "https://raw.githubusercontent.com/sazap10/dndhomebrew/main/images/chromatic-dragon-hydra.png"
+    }
+  ]
+}
