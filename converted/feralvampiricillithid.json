@@ -1,0 +1,224 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "FeralVampiricIllithid",
+        "abbreviation": "DHY",
+        "full": "Feral Vampiric Illithid",
+        "authors": ["James Haeck"],
+        "convertedBy": ["Spicebandit"],
+        "version": "1.0.0",
+        "url": "https://www.dndbeyond.com/monsters/528340-feral-vampiric-illithid",
+        "targetSchema": "1.3.4"
+      }
+    ],
+    "dateAdded": 1634028911,
+    "dateLastModified": 1634028911
+  },
+  "monster": [
+		{
+			"name": "Feral Vampiric Illithid",
+			"shortName": "Vampiric Illithid",
+			"source": "FeralVampiricIllithid",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d8 + 18",
+				"average": 99
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 12,
+			"int": 3,
+			"wis": 17,
+			"cha": 3,
+			"save": {
+				"wis": "+7",
+				"cha": "+0",
+				"int": "+0"
+			},
+			"skill": {
+				"insight": "+6",
+				"stealth": "+8",
+				"perception": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 20,
+			"resist": [
+				{
+					"resist": [
+						"necrotic"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from Nonmagical attacks"
+				}
+			],
+			"languages": [
+				"Telepathy (60 ft., emotions only)",
+				"can understand Deep Speech and Undercommon",
+				"but can't speak them"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The vampiric illithid has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the vampiric illithid fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Misty Escape",
+					"entries": [
+						"When it drops to 0 hit points outside its resting place, the vampiric illithid transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+						"While it has 0 hit points in mist form, it can't revert to its vampiric illithid form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampiric illithid form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The vampiric illithid regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampiric illithid takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampiric illithid's next turn."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The vampiric illithid can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Vampire Weakness",
+					"entries": [
+						"The vampiric illithid has the following flaws:",
+						"{@i Forbiddance}. The vampiric illithid can't enter a residence without an invitation from one of the occupants.",
+						"{@i Harmed by Running Water}. The vampiric illithid takes 20 acid damage if it ends its turn in running water.",
+						"{@i Stake to the Heart}. If a piercing weapon made of wood is driven into the vampiric illithid's heart while the vampiric illithid is {@condition incapacitated} in its resting place, the vampiric illithid is {@condition paralyzed} until the stake is removed.",
+						"{@i Sunlight Hypersensitivity}. The vampiric illithid takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+					]
+				},
+				{
+					"name": "Photosensitive Fury",
+					"entries": [
+						"The vampiric illithid despises light from any source. If a creature holds a light, such as a torch or an object affected by the light spell at the start of vampiric illithid's turn, the vampiric illithid must attack that creature at least once on its turn. If it doesn’t, it has disadvantage on attacks against other creatures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sanguine Tentacles",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) psychic damage, plus 11 ({@damage 2d10}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampiric regains hit points equal to that amount.",
+						"If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 15}) and must succeed on a {@dc 15} Intelligence saving throw or be {@condition stunned} until this grapple ends."
+					]
+				},
+				{
+					"name": "Extract Brain",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one {@condition incapacitated} humanoid {@condition grappled} by the vampiric illithid. {@h}55 ({@damage 10d10}) piercing damage. If this damage reduces the target to 0 hit points, the vampiric illithid kills the target by extracting and devouring its brain."
+					]
+				},
+				{
+					"name": "Mind Blast {@recharge 5}",
+					"entries": [
+						"The vampiric illithid magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 16} Intelligence saving throw or take {@h}22 ({@damage 4d8 + 4}) psychic damage and be {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The vampiric illithid moves up to its speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Sanguine Tentacle (Costs 2 Actions)",
+					"entries": [
+						"The vampiric illithid makes one sanguine tentacle attack."
+					]
+				},
+				{
+					"name": "Extract Brain. (Costs 3 Actions)",
+					"entries": [
+						"The vampiric illithid makes an extract brain attack."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Feral vampiric illithids are the result of hideous experimentation upon a select few mind flayers from the domain of Bluetspur. The curse of vampirism, which can heighten charm and cunning within its humanoid victims, is devastating to the illithid mind. Its alien mind succumbs to the worst aspects of vampirism, turning it into little more than a feral beast. Even its telepathic abilities degrade to their basest form, transmitting little more than emotions of hunger and fear to all creatures within 120 feet. This telepathic sensation of insatiable hunger can serve as a warning to the feral vampiric illithid's prey, but it's also a potent weapon of fear, causing its prey to panic and act rashly.",
+					"A feral vampiric illithid stalks its prey, using its Spider Climb trait to hide in the darkened ceilings of caves or castles, then scuttling down and pouncing on distracted foes. Though the process of transforming a mind flayer into a vampire degrades it psionic abilities to the point where it can no longer cast spells, it retains its potent Mind Blast, which it uses to stun creatures before wreathing its prey's head with tentacles and devouring their brain. ",
+					"Though its skin has been hardened by the curse of vampirism, a feral vampiric illithid's body is still frail and wiry. As such,  prefers to attack single solitary creatures, or pick off stragglers at the back of a group, or ambush a group of creatures that are otherwise distracted by combat. After striking, the vampiric illithid flees, using its Regeneration trait to regain its strength before attacking again. "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://64.media.tumblr.com/69e0274172a9525baa81e45b10eea696/tumblr_pzmuc89yfo1ro2bqto1_1280.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/sazap10/dndhomebrew/main/images/feral-vampiric-illithid.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Regeneration",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"CS",
+				"DS",
+				"U"
+			],
+			"damageTags": [
+				"A",
+				"N",
+				"P",
+				"R",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"stunned"
+			]
+		}
+	]
+}
